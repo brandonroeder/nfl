@@ -49,8 +49,6 @@ class Drive:
 					return hits
 
 
-
-
 first= Drive(game1.home, "case keenum", "pass", 34, 0, 0,1,0)
 
 player1=nflgame.find(first.number)
@@ -67,7 +65,7 @@ print str(player) +type + " the ball for " +str(first.yardage) + " yards."
 
 if first.touchdown==1:
 	game1.homeScore+=7
-	print "Touchdown"
+	print "Touchdown!"
 	print game1.home +": "+ str(game1.homeScore)
 	print game1.away + ": " +str(game1.awayScore)
 
